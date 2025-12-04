@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mis XV Años</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Festive&family=Lavishly+Yours&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">
+        Rosa Geraldine
+        <span class="heading-subtext">Cruz Salvador</span>
+      </h1>
+    </header>
+   
+    <section class="section">
+      <h2 class="sub-heading">Te invito a mis XV Años</h2>
+      <p>Gracias señor, por haberme permitido llegar a este día tan importante en mi vida. Estoy frente a ti rodeada de mis padres, hermanos y familiares, por medio de las cuáles he aprendido a conocerte y amarte, llena de ilusiones y alegrías, empiezo hoy una nueva etapa en mi vida. solo te pido señor, que me des el arma poderosa del amor, para luchar en contra de todo lo que pueda separarme de ti y así poder disfrutar de una hermosa juventud. gracias por acompañarme.</p>
+      <img class="resort-image" src="./img/xv-removebg-preview.png" alt="Resort" />
+    </section>
+
+    <section class="section">
+      <h2 class="sub-heading">Mis padres</h2>
+      <img class="resort-image" src="./img/padres.png" alt="Resort" />
+      <p class="letras">Blanca Nereyda Salvador Hidalgo</p>
+      <p class="letras">Rubisel Cruz Fernández</p>
+    </section>
+
+    <section class="section">
+
+      <h2 class="sub-heading">Madrina</h2>
+      <img class="resort-image" src="./img/madrina.png" alt="Resort" />
+      <p class="letras">Julia Fernández Hernández</p>
+    </section>
+
+    <section class="section">
+      <h2 class="sub-heading">Detalles</h2>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <h3 class="details-heading">Cuando</h3>
+        <p>Lunes 22 de diciembre del 2o25</p>
+        
+      </div>
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Ubicación</h3>
+        <p><a rel="noopener" href="https://maps.app.goo.gl/EN6rMwntJYqGNNXA7" target="_blank">Calle: Miguel Aleman #1</a>,</p><p> Col. 17 de Mayo; Cerro Azul</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.81341366607!2d-97.7322564257556!3d21.1995698818919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d9e3d9c96f2c15%3A0x2b1cace8fa5eaf61!2sMiguel%20Alem%C3%A1n%20491%2C%20Diecisiete%2C%2092513%20Cerro%20Azul%2C%20Ver.!5e0!3m2!1ses-419!2smx!4v1764884585277!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapas"></iframe>
+      </div>
+      
+      
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
